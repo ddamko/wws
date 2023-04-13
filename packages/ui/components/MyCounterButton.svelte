@@ -6,6 +6,6 @@
   }
 </script>
 
-<button on:click="{handleClick}">
+<button type="button" class="btn variant-filled-primary" on:click="{handleClick}">
   clicks: {count}
 </button>
