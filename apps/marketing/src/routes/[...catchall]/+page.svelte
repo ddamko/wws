@@ -7,7 +7,7 @@
 	export let data;
 	export let content = data.props.content;
 
-	const CUSTOM_COMPONENTS: RegisteredComponent[] = [
+	export const CUSTOM_COMPONENTS: RegisteredComponent[] = [
 		{
       		component: MyCounterButton,
       		name: 'Counter Button',
