@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let name: string;
+  export let text: string;
   
   let count = 0;
 
@@ -9,5 +9,5 @@
 </script>
 
 <button type="button" class="btn variant-filled-primary" on:click="{handleClick}">
-  {name} {count}
+  {text} {count}
 </button>

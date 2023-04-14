@@ -1,8 +1,7 @@
-<!-- src/routes/[...catchall]/+page.svelte -->
 <script lang="ts">
 	import { getContent, RenderContent, type RegisteredComponent } from "@builder.io/sdk-svelte";
 	import MyCounterButton from "ui/components/MyCounterButton.svelte";
-	// import { PUBLIC_BUILDER_API_KEY } from "$env/static/public";
+	import { PUBLIC_BUILDER_API_KEY } from "$env/static/public";
 
 	export let data;
 	export let content = data.props.content;
@@ -21,7 +20,7 @@
 				}
 			]
     	}
-	]
+	];
 </script>
 
 <main>
