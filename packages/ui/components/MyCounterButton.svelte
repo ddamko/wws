@@ -1,4 +1,6 @@
 <script lang="ts">
+  export let name: string;
+  
   let count = 0;
 
   function handleClick() {
@@ -7,5 +9,5 @@
 </script>
 
 <button type="button" class="btn variant-filled-primary" on:click="{handleClick}">
-  clicks: {count}
+  {name} {count}
 </button>
