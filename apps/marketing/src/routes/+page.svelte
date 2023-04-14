@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Header, MyCounterButton } from "ui"
+	import { Header, MyCounterButton } from "ui";
 </script>
 
 <Header page_title="Marketing Website" />

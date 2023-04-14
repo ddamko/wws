@@ -1,6 +1,6 @@
 <script>
-	import '@skeletonlabs/skeleton/styles/all.css';
-	import '../app.postcss';
+	import "@skeletonlabs/skeleton/styles/all.css";
+	import "../app.postcss";
 </script>
 
 <slot />

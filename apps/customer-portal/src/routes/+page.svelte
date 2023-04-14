@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Header } from "ui"
+	import { Header } from 'ui';
 </script>
 
 <Header page_title="Customer Portal" />
