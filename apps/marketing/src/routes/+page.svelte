@@ -7,7 +7,7 @@
 
 	const BUILDER_PUBLIC_API_KEY = 'a3c0473cfc3f4922a401bf0057bdf2c2'; 
 
-	let canShowContent: boolean = false;
+	let canShowContent: boolean = true;
 	let content: BuilderContent | null | undefined = undefined;
 
 	async function fetchContent() {
