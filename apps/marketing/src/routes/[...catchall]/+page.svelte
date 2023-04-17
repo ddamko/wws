@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getContent, RenderContent, type RegisteredComponent } from "@builder.io/sdk-svelte";
+	import { RenderContent, type RegisteredComponent } from "@builder.io/sdk-svelte";
 	import MyCounterButton from "ui/components/MyCounterButton.svelte";
 	import { PUBLIC_BUILDER_API_KEY } from "$env/static/public";
 
