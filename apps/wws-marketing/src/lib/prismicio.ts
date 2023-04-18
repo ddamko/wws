@@ -14,7 +14,7 @@ const routes = [
   },
 ]
 
-const createClient = ({ request, fetch } = {}) => {
+const createClient = ({ request, fetch }: any) => {
   const clientOptions = {
     fetch,
     routes,

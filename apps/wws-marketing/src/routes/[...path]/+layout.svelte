@@ -1,5 +1,4 @@
-<script>
-    import pico from '@picocss/pico';
+<script lang="ts">
     import * as prismicH from '@prismicio/helpers';
     import { page } from '$app/stores';
   

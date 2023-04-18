@@ -1,6 +1,6 @@
 import createClient from '$lib/prismicio';
 
-export async function load({ fetch, request }) {
+export const load = async ({ fetch, request }) => {
   const client = createClient({ fetch, request });
 
   const { data } = await client.getSingle('settings');

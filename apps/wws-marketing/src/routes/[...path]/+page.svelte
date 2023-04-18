@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { SliceZone } from '@prismicio/svelte'
   import { dev } from '$app/environment'
   import * as prismicHelp from '@prismicio/helpers';
