@@ -2,4 +2,7 @@
 	import '../app.postcss';
 </script>
 
-<slot />
+<div class="container mx-auto">
+	<slot />
+</div>
+

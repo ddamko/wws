@@ -1,7 +1,10 @@
 <script>
   import * as prismicH from '@prismicio/helpers';
 
-  export let slice
+  /**
+	 * @type {{ primary: { text: any; }; }}
+	 */
+   export let slice
 
 </script>
 

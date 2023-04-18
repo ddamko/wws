@@ -39,7 +39,6 @@
 		"@picocss/pico": "^1.5.5",
 		"@prismicio/client": "^6.7.1",
 		"@prismicio/helpers": "^2.3.5",
-		"@prismicio/svelte": "^0.0.4",
-		"tw-elements": "1.0.0-beta2"
+		"@prismicio/svelte": "^0.0.4"
 	}
 }
