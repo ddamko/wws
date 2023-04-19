@@ -1,8 +1,8 @@
 {
 	"private": true,
 	"scripts": {
-		"wws-marketing": "pnpx turbo run dev --scope=wws-marketing",
-		"customer-portal": "pnpx turbo run dev --scope=customer-portal",
+		"wws-marketing": "pnpx turbo run dev --scope=wws-marketing --no-daemon",
+		"customer-portal": "pnpx turbo run dev --scope=customer-portal --no-daemon",
 		"build": "turbo run build",
 		"dev": "turbo run dev",
 		"lint": "turbo run lint",
