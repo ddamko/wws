@@ -50,5 +50,5 @@ export default component$(() => {
 	// RenderContent uses `content` to
 	// render the content of the given model, here a page,
 	// of your space (specified by the API Key)
-	return <RenderContent model={BUILDER_MODEL} content={content.value} apiKey={BUILDER_PUBLIC_API_KEY} />;
+	return <RenderContent model={BUILDER_MODEL} content={content.value} apiKey={BUILDER_PUBLIC_API_KEY} customComponents={CUSTOM_COMPONENTS} />;
 });
