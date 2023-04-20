@@ -12,13 +12,13 @@ export const useServerTimeLoader = routeLoader$(() => {
 
 export default component$(() => {
   return (
-    <div class="page">
+    <div class="container mx-auto">
       <main>
         <Header />
         <Slot />
       </main>
-      <div class="section dark">
-        <div class="container">
+      <div>
+        <div>
           <Footer />
         </div>
       </div>
