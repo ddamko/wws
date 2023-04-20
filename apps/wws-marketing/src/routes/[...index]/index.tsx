@@ -36,7 +36,7 @@ export const CUSTOM_COMPONENTS: RegisteredComponent[] = [
 		inputs: [
 			{
 				name: "text",
-				type: "string",
+				type: "richtext",
 				defaultValue: "Some text..."
 			}
 		]
