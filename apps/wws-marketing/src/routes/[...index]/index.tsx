@@ -1,9 +1,9 @@
 import { component$ } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
-import type { RegisteredComponent } from "@builder.io/sdk-qwik";
+// import type { RegisteredComponent } from "@builder.io/sdk-qwik";
 import { getContent, RenderContent, getBuilderSearchParams } from "@builder.io/sdk-qwik";
 
-import TextBlock from "~/components/starter/TextBlock";
+// import TextBlock from "~/components/starter/TextBlock";
 
 export const BUILDER_PUBLIC_API_KEY = "a3c0473cfc3f4922a401bf0057bdf2c2"; // <-- Add your Public API KEY here
 export const BUILDER_MODEL = "page";
@@ -29,19 +29,19 @@ export const useBuilderContent = routeLoader$(async ({ url, error }) => {
 	return builderContent;
 });
 
-export const CUSTOM_COMPONENTS: RegisteredComponent[] = [
-	{
-		component: TextBlock,
-		name: "Custom Text Block",
-		inputs: [
-			{
-				name: "text",
-				type: "richtext",
-				defaultValue: "Some text..."
-			}
-		]
-	}
-];
+// export const CUSTOM_COMPONENTS: RegisteredComponent[] = [
+// 	{
+// 		component: TextBlock,
+// 		name: "Text Block",
+// 		inputs: [
+// 			{
+// 				name: "text",
+// 				type: "richtext",
+// 				defaultValue: "Some text..."
+// 			}
+// 		]
+// 	}
+// ];
 
 export default component$(() => {
 	// call useBuilderContent() and set content equal to
@@ -50,5 +50,5 @@ export default component$(() => {
 	// RenderContent uses `content` to
 	// render the content of the given model, here a page,
 	// of your space (specified by the API Key)
-	return <RenderContent model={BUILDER_MODEL} content={content.value} apiKey={BUILDER_PUBLIC_API_KEY} customComponents={CUSTOM_COMPONENTS} />;
+	return <RenderContent model={BUILDER_MODEL} content={content.value} apiKey={BUILDER_PUBLIC_API_KEY} />;
 });
